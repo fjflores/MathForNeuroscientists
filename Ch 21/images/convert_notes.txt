@@ -1,0 +1,13 @@
+To convert the images in tif format, use the method suggested 
+by van Hateren in his notes:
+
+convert -size 1536x1024 -depth 16 gray:imk00001.iml imk00001.tif
+
+im00010 was first converted as above. The in was auto-leveled and 
+auto-contrasted in photoshop. The the brightness was increased to
++148 of baseline. Finally, it was resampled to 300 dpi, 5 inches wide
+(with a sharpening filter) to obtain the final image. In addition,
+it was converted from 16 bits to 8 bits per pixel.
+
+
+
